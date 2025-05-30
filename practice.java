@@ -96,5 +96,24 @@ public class practice
                 }
             }
             System.out.println(sum);*/
+
+                                                       /* MOST REPEATING ELEMENT */
+            /*for(int i=0; i<len; i++)
+            {
+                for(int j=i+1; j<len; j++)
+                {
+                    if(arr[i] == arr[j])
+                    {
+                        count++;
+                    }
+                }
+                if(max < count)
+                    {
+                       max = arr[i];
+                    }
+                    count = 0;
+            }
+            System.out.println(max);
+            */
     }
 }
