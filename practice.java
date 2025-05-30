@@ -115,5 +115,32 @@ public class practice
             }
             System.out.println(max);
             */
+
+         /*ANAGRAM*/
+           /* String one = "cata";
+            String two = "actsa";
+            one  = one.toLowerCase();
+            two = two.toLowerCase();
+            if(one.length()!=two.length())
+            {
+                System.out.println("It's not anaggram");
+            }
+            else
+            {
+            char[] str1 = one.toCharArray();
+            char[] str2 = two.toCharArray();
+
+            Arrays.sort(str1);
+            Arrays.sort(str2);
+
+            if(Arrays.equals(str1,str2))
+            {
+                System.out.println("it's Anagram");
+            }
+            else
+            {
+                System.out.println("its not Anagram");
+            }
+        }*/
     }
 }
